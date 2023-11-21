@@ -1,0 +1,56 @@
+.image-heading {
+    // background-image: url("https://static.chaos.com/images/assets/000/016/547/full_width_original/feature-page-v-ray6-sketchup-1920x400.jpg?1663311152");
+    background-image: url("https://tranquil-licorice-79e76f.netlify.app/static/media/image-heading.49f53eab01efd103a6e5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 30vh;
+    line-height: 30vh;
+    position: relative;
+    z-index: -2;
+
+    h1 {
+        font-size: 40px;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    button {
+        background: black;
+        color: white;
+        font-weight: 400;
+        padding: 15px 30px;
+        word-spacing: 5px;
+    }
+
+    a {
+        color: #31b675;
+        cursor: pointer;
+    }
+
+    span {
+        text-transform: capitalize;
+        word-spacing: 30px;
+    }
+
+    .conatainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+.image-heading::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    height: 30vh;
+    width: 100%;
+    z-index: -1;
+}

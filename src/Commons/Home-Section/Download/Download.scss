@@ -1,0 +1,44 @@
+.download {
+    background-color: #31b675;
+    color: white;
+    height: 75vh;
+    padding: 80px 0;
+    overflow: hidden;
+  }
+  .download h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .download ul {
+    margin: 30px 0;
+  }
+  .download ul li {
+    margin: 20px 0;
+  }
+  .download .row img {
+    margin-right: 20px;
+    padding: 40px 0;
+  }
+  .download .row {
+    position: relative;
+  }
+  .download .image {
+    position: absolute;
+    left: 20%;
+    right: 0;
+  }
+  @media screen and (max-width: 768px) {
+    .download .flex_space {
+      flex-direction: column;
+      padding: 40px;
+    }
+    .download .row {
+      width: 100%;
+    }
+    .download .row2 {
+      display: none;
+    }
+    .download {
+      height: 60vh;
+    }
+  }

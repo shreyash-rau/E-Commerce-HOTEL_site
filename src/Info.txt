@@ -1,0 +1,186 @@
+
+In this Application
+mainly conation two components
+1. Commons
+    ____which conation all the pages that show in navabr 
+    
+    Just Like 
+    a. Home - Section 
+        Its contain sub pages and files, thats shown in Home pages
+        Just Like 
+        1. Destiny
+        2. Download
+        3. Logos
+        4. Most_Popular_Hotel
+        5. Working
+
+    b. About
+    c. Gallery
+    d. Destination
+    e. Blogs
+    f. TestiMonial
+    g. Contact
+    h. Login
+
+
+2.Components
+    ____which conation some common pages thats show every where in 
+    all website 
+    just like
+    a. Navabr - holidng all section of web pages
+    b. Headtitle - showing with image and Name of respective pages
+    c. EmptyFile - If any file are not exist then this page is show
+    d. Footer - Showing other information of website
+
+....................................................
+
+In Destination page 
+
+1. Headtitle - showing the data on which page u r currently, 
+
+2. All_Items - All the presnet info in this page
+
+In All_Items :
+
+1. Des_Data - holding the all required data which used in this page (like Key : Values)
+used to get data by using useState in All_Items
+
+2. Des_Card - help to render on pages of perticular destinies, with there full info 
+
+
+In DesInfoPage 
+
+when u clicking on any card on Destination then u direct gone on this page 
+which show the all relavent information of that place
+
+which contain 
+1. Headtitle
+2. itself - DesInfoPage
+3. EmptyFile - when no data of any Destination then showing error
+
+..................................................................
+
+in Home - Section 
+
+we added new page - Most_Popular_Hotel
+
+for that we using React Slick
+link : https://react-slick.neostack.com/docs/get-started 
+npm install react-slick --save
+npm install slick-carousel --save
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+1. MostPopularHotel (main file)
+2. MostPopularHotel (scss file)
+3. MostPopularHotelCard (Holding all data of this page)
+4. MostPopularHotelData (All required data)
+
+[ MostPopularHotel.jsx + MostPopularHotel.scss => MostPopularHotelCard.jsx ==> MostPopularHotelData.jsx ]
+.............................................................................
+In Blogs Page
+
+
+
+
+
+
+
+
+
+
+.............................................................................
+In Destination Page
+
+
+
+
+
+
+
+
+
+
+
+
+.............................................................................
+In Home-section 
+Download Page
+
+
+
+
+
+
+
+
+
+
+
+
+
+.............................................................................
+In Home-section 
+Work Page
+
+
+
+
+
+
+.............................................................................
+In Home-section 
+Gallery-Logos Page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..............................................................................
+
+Contact Form Page
+
+
+
+
+
+
+
+
+
+
+
+..........................................................................
+
+pages 
+
+Sign in and register , 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

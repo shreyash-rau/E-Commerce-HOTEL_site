@@ -1,0 +1,140 @@
+h4 {
+  color: lightgreen;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 30px;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+p {
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.secondary-btn {
+  padding: 12px 30px;
+  background-color: #31b675;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 20px;
+  left: 40%;
+}
+
+// .control-btn {
+//     text-align: center;
+//     color: white;
+
+//     button {
+//         background-color: rgba(255, 255, 255, 0.3);
+//         width: 60px;
+//         height: 60px;
+//         line-height: 60px;
+//         border-radius: 50%;
+//         cursor: pointer;
+//     }
+
+//     i {
+//         background-color: #31b675;
+//         width: 45px;
+//         height: 45px;
+//         margin: auto;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         border-radius: 50%;
+//         font-size: 30px;
+//     }
+// }
+
+
+.aboutCard .row1 {
+  padding-right: 30px;
+}
+
+.aboutCard .row.image,
+.aboutCard .image {
+  position: relative;
+}
+
+.aboutCard .image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.features .control-btn,
+.features .image::after,
+.features .image::before,
+.features .control-btn::before {
+  display: none;
+}
+
+.features .flex_space {
+  flex-direction: row-reverse;
+
+  img {
+    width: 90%;
+  }
+
+  h1 {
+    font-weight: bold;
+
+    span {
+      color: lightgreen;
+    }
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  .features .flex_space,
+  .aboutCard {
+    flex-direction: column;
+  }
+
+  .aboutCard .image::after,
+  .aboutCard .image::before,
+  .aboutCard .control-btn::before {
+    display: none;
+  }
+
+  .aboutCard .row {
+    width: 100%;
+  }
+
+  .aboutCard .image {
+    margin-top: 50px;
+  }
+
+  .aboutCard img {
+    width: 100%;
+  }
+}
+
+.row {
+  width: 50%;
+}
+
+.top {
+  margin-top: 100px;
+}
+
+.mtop {
+  margin-top: 50px;
+}
