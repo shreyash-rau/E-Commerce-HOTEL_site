@@ -1,12 +1,12 @@
 const Data = [
   {
-    image: "https://tranquil-licorice-79e76f.netlify.app/images/slider-1.jpg"
+    image: "https://www.cooeecalaratjada.com/en/dms/monoHotel-Cala-Ratjada/galeria/galeria-cooee-cala-ratjada.jpg"
   },
   {
-    image: "https://tranquil-licorice-79e76f.netlify.app/images/slider-2.jpg"
+    image: "https://www.postillionhotels.com/Postillion/media/Modules/Untitled-2_1.jpg?ext=.jpg"
   },
   {
-    image: "https://tranquil-licorice-79e76f.netlify.app/images/slider-3.jpg"
+    image: "https://moosehotelandsuites.com/wp-content/uploads/2021/11/lobby-1920-1280x467.jpg"
   },
 ]
 export default Data;

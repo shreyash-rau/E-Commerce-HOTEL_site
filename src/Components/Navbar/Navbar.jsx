@@ -51,6 +51,7 @@ export default function Navbar() {
     <header>
       <div className="conatainer flex_space">
         <div className="logo">
+          {/* Luxury Hitel Logo url */}
           <img src="https://template82558.motopreview.com/mt-demo/82500/82558/mt-content/uploads/2019/06/mt-1835-logo.png" alt="logo img" />
         </div>
         <div className="conatct flex_space">

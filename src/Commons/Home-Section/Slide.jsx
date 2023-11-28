@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import Data from './Data'
+import { Link } from 'react-router-dom';
+import EmptyFile from '../../Components/EmptyFile/EmptyFile';
 
-export default function Slide({slides = []}) {
+export default function Slide({ slides = [] }) {
 
   const [current, setCurrent] = useState(0);
   const length = slides.length
@@ -21,17 +23,17 @@ export default function Slide({slides = []}) {
 
   return (
     <>
-    <section className='slider'>
-      <div className='control-btn'>
-        <button className='prev' onClick={prevSlide} >
-          <i className='fas fa-caret-left'></i>
-        </button>
-        <button className='next' onClick={nextSlide} >
-          <i className='fas fa-caret-right'></i>
-        </button>
-      </div>
+      <section className='slider'>
+        <div className='control-btn'>
+          <button className='prev' onClick={prevSlide} >
+            <i className='fas fa-caret-left'></i>
+          </button>
+          <button className='next' onClick={nextSlide} >
+            <i className='fas fa-caret-right'></i>
+          </button>
+        </div>
 
-      {Data.map((slide, index) => {
+        {Data.map((slide, index) => {
           return (
             <div className={index === current ? "slide active" : "slide"} key={index}>
               {index === current && <img src={slide.image} alt='Home Image' />}
@@ -39,30 +41,31 @@ export default function Slide({slides = []}) {
           )
         })}
 
-    </section>
+      </section>
 
-    <section className='slide-form'>
-      <div className='conatainer'>
-        <h2>Enjoy Your Holiday'S</h2>
-        <span>Search and Book Hotel</span>
-        <form action ="">
-          <input type="text" placeholder='Search City' name="" id="" />
-          <div className='flex_space'>
-            <input type='date' placeholder='Check In'/>
-            <input type='date' placeholder='Check Out'/>
-          </div>
-          <div className='flex_space'>
-            <input type='number' placeholder='Adults(18+ - Above)'/>
-            <input type='number' placeholder='children(0 - 17)'/>
-          </div>
-          <input type='number' placeholder='Rooms'/>
-          <input type='submit' value="Search" className='submit'/>
-              
-        </form>
-      </div>
-    </section>
+      <section className='slide-form'>
+        <div className='conatainer'>
+          <h2>Enjoy Your Holiday'S</h2>
+          <span>Search and Book Hotel</span>
+          <form action="">
+            <input type="text" placeholder='Search City' name="" id="" />
+            <div className='flex_space'>
+              <input type='date' placeholder='Check In' />
+              <input type='date' placeholder='Check Out' />
+            </div>
+            <div className='flex_space'>
+              <input type='number' placeholder='Adults(18+ - Above)' />
+              <input type='number' placeholder='children(0 - 17)' />
+            </div>
+            <input type='number' placeholder='Rooms' />
+            <input type='submit' value="Search" className='submit' />
+
+
+          </form>
+
+        </div>
+      </section>
 
     </>
   )
 }
- 

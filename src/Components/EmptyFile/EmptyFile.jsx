@@ -10,4 +10,4 @@ function EmptyFile() {
     </>)
 }
 
-export default EmptyFile
+export default EmptyFile;

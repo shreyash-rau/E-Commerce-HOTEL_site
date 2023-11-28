@@ -22,7 +22,7 @@ function AboutCard() {
       </div>
 
       <div className="row image">
-        <img src="https://tranquil-licorice-79e76f.netlify.app/images/about-img-1.jpg" alt="" />
+        <img src="https://mosaicwealth.com/wp-content/uploads/Vesterly-Images-5-710x375.jpg" alt="" />
         <div className="control-btn">
           {/* <button className="prev">
           <i className='fas fa-play' />

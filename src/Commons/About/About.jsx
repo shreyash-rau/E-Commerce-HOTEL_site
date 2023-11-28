@@ -33,7 +33,7 @@ function About() {
           </button>
         </div>
         <div className="row image">
-          <img src="https://tranquil-licorice-79e76f.netlify.app/images/feature-img-1.jpg" alt="" />
+          <img src="https://img.freepik.com/free-photo/cherful-positive-young-colleagues-using-laptop-computer_171337-754.jpg?size=626&ext=jpg" alt="" />
         </div>
       </div>
     </section>

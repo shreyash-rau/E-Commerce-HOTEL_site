@@ -55,8 +55,13 @@
         margin-top: 20px;
     }
     .submit {
-        background: #31b675;
-        color: white;
+        background: #045e70;
+        color:rgb(137, 236, 178);
+        cursor: pointer;
+    }
+    .submit:hover{
+        font-weight: 700;
+        font-size: 15px;
     }
 }
 .slide-form .flex_space input:nth-child(odd) {
